@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./index.js"></script>
-    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Rock Paper Scissors!</title>
 </head>
 <body>
+    <div id="game">
+        <div>
+            <h1>Rock, Paper, Scissors!</h1>
+            <h2 id="info">whoever scores 5 first, win the game!!!</h2>
+        </div>
+        <div class="choices">
+            <div class="player-div">
+                <div id="player-score">
+                    <h2>You</h2>
+                    <p id="your-score"></p>
+                </div>
+                <div class="player-choices">
+                    <button id="rock"><img src="./img/rock.png">Rock</button>
+                    <button id="paper"><img src="./img/paper.png" alt="">Paper</button>
+                    <button id="scissors"><img src="./img/scissors.png" alt="">Scissors</button>
+                </div>  
+            </div>
+            <div class="computer-div">
+                <div id="machine-score">
+                    <h2>Computer</h2>
+                    <p id="computer-score"></p>
+                </div>
+                <div class="computer-choices">
+                    <button id="rock_C"><img src="./img/rock.png">Rock</button>
+                    <button id="paper_C"><img src="./img/paper.png" alt="">Paper</button>
+                    <button id="scissors_C"><img src="./img/scissors.png" alt="">Scissors</button>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div id="result" class="resultGame"> 
+        <h3></h3>
+        <button id="reload">Reload</button>
+    </div>
+
+
     
 </body>
 </html>

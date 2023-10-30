@@ -1,0 +1,128 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+#reload {
+    background-color: #2f3844;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#reload:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+h3, h2, h1, p, button{
+    color: aliceblue;
+}
+
+button img{
+    width: 50px;
+    
+}
+
+#rock, #paper, #scissors, #rock_C, #paper_C, #scissors_C {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    justify-content: center;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 7px;
+}
+
+#rock:hover, #paper:hover, #scissors:hover{
+    transform: scale(1.1);
+    background-color: rgb(189, 201, 212);
+    transition: 0.1s;
+}
+
+.player-choices, .computer-choices {
+    display: flex;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3844;
+    border-radius: 15px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around ;
+}
+
+#player-score {
+    display: block ;
+}
+
+.player-div, .computer-div {
+    background-color: #2f3844;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+#player-score, #machine-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.active {
+    color: red;
+} 
+
+h1 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#info {
+    text-align: center;
+    
+}
+
+#computer-score, #your-score{
+    font-weight: 800;
+    font-size: 22px;
+    
+}
+
+.resultGame {
+    display: none;
+}
+
+.resultDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 22px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
